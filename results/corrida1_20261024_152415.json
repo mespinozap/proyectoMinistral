@@ -1,0 +1,190 @@
+{
+  "suite": "suite-functional-v1",
+  "model": "ministral-3:3b",
+  "creada": "2026-10-24",
+  "prompts": [
+    {
+      "id": "GEN-01",
+      "categoria": "generacion_texto",
+      "prompt": "Redacta un correo formal para solicitar una cita con el director de la Escuela de Informática. Debe incluir: saludo formal, propósito de la cita (asesoría sobre el proyecto de investigación) y despedida cordial.",
+      "esperado": "Correo con saludo formal, propósito de asesoría sobre el proyecto de investigación y despedida cordial. Registro formal, estructura de correo completa, sin datos inventados.",
+      "resultado": {
+        "salida": "Aquí tienes un borrador de correo formal para solicitar una cita con el director de la Escuela de Informática:\n\n---\n**Asunto:** Solicitud de cita para asesoría sobre proyecto de investigación\n\n**Estimado/Estimada [Nombre del director],**\n\nMi nombre es [Tu nombre completo], soy estudiante de [Tu carrera o programa] en la Escuela de Informática de [nombre de tu universidad o institución]. Estoy escribiendo para solicitar una cita con usted con el fin de solicitar su asesoría sobre [nombre breve del proyecto de investigación, ej.: *\"el diseño de algoritmos para optimización de rutas en sistemas logísticos\"*].\n\nSería de gran ayuda contar con su orientación técnica, así como cualquier recurso, bibliografía o perspectiva que pueda enriquecer el desarrollo de nuestro proyecto. Por supuesto, estamos abiertos a adaptarnos a sus disponibilidades para agendar la reunión en las fechas que mejor le convenga.\n\nQuedo atento/a a cualquier comentario o fecha que desee proporcionar. Agradezco de antemano su disponibilidad y quedo a disposición para ampliar cualquier detalle por si lo considera necesario.\n\nReciba un cordial saludo,\n**[Tu nombre completo]**",
+        "tokens_generados": 256,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 3.71,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:16:32"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "GEN-02",
+      "categoria": "generacion_texto",
+      "prompt": "Escribe una publicación breve (máximo 100 palabras) para la página de la universidad anunciando un hackatón de IA el 15 de noviembre.",
+      "esperado": "Publicación de máximo 100 palabras que anuncie el hackatón con fecha 15 de noviembre, tono institucional y datos básicos del evento (fecha, temática). Sin agregar detalles no solicitados.",
+      "resultado": {
+        "salida": "**🚀 ¡Hackatón de IA el 15 de noviembre! 🌟**\n\n¿Te apasiona la inteligencia artificial? Únete a nuestro **Hackatón de IA** el **15 de noviembre**, donde podrás trabajar en proyectos innovadores bajo la guía de expertos.\n\nInscríbete hoy y descubre cómo impulsar soluciones tecnológicas con creatividad y talento. Ideal para estudiantes, desarrolladores y entusiastas.\n\n📌 **Fecha:** 15 de noviembre\n📍 **Lugar:** [Espacio universitario]\n💡 **¡No te lo pierdas!** #HackatónIA #CreatividadTecnológica #Universidad [Nombre]. ¡Vamos a innovar juntos! 💻✨",
+        "tokens_generados": 175,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 3.94,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:17:45"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RES-03",
+      "categoria": "resumen",
+      "prompt": "Resume en 3 viñetas el siguiente texto de 500 palabras: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lentejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana. Pero esto importa poco a nuestro cuento: basta que en la narración dél no se salga un punto de la verdad. Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso, que eran los más del año, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda; y llegó a tanto su curiosidad y desatino en esto, que vendió muchas hanegas de tierra de sembradura para comprar libros de caballerías en que leer, y así, llevó a su casa todos cuantos pudo haber dellos; y de todos, ningunos le parecían tan bien como los que compuso el famoso Feliciano de Silva; porque la claridad de su prosa y aquellas entricadas razones suyas le parecían de perlas, y más cuando llegaba a leer aquellos requiebros y cartas de desafíos, donde en muchas partes hallaba escrito: La razón de la sinrazón que a mi razón se hace, de tal manera mi razón enflaquece, que con razón me quejo de la vuestra fermosura. Y también cuando leía:... los altos cielos que de vuestra divinidad divinamente con las estrellas os fortifican, y os hacen merecedora del merecimiento que merece la vuestra grandeza. Con estas razones perdía el pobre caballero el juicio, y desvelábase por entenderlas y desentrañarles el sentido, que no se lo sacara ni las entendiera el mesmo Aristóteles, si resucitara para sólo ello. No estaba muy bien con las heridas que don Belianís daba y recebía, porque se imaginaba que, por grandes maestros que le hubiesen curado, no dejaría de tener el rostro y todo el cuerpo lleno de cicatrices y señales. Pero, con todo, alababa en su autor aquel acabar su libro con la promesa de aquella inacabable aventura, y muchas veces le vino deseo de tomar la pluma y dalle fin al pie de la letra, como allí se promete; y sin duda alguna lo hiciera, y aun saliera con ello, si otros mayores y continuos pensamientos no se lo estorbaran. Tuvo muchas veces competencia con el cura de su lugar (que era hombre docto, graduado en Sigüenza), sobre cuál había sido mejor caballero: Palmerín de Ingalaterra, o Amadís de Gaula; mas maese Nicolás, barbero del mismo pueblo, decía que ninguno llegaba al Caballero del Febo, y que si alguno se le podía comparar, era don Galaor, hermano de Amadís de Gaula, porque tenía muy acomodada condición para todo; que no era caballero melindroso, ni tan llorón como su hermano, y que en lo de la valentía no le iba en zaga.",
+      "esperado": "Exactamente 3 viñetas que capturen: (1) el retrato y estilo de vida del hidalgo, (2) su afición desmedida a los libros de caballerías y su decisión de vender tierras para comprarlos, (3) el descuido de su hacienda y las discusiones con el cura y el barbero. Sin contenido inventado.",
+      "resultado": {
+        "salida": "Aquí tienes el resumen en **3 viñetas**:\n\n- **Vida cotidiana del hidalgo**:\n  Un anciano de unos 50 años, llamado *\"Quijada\"* (o Quesada), vive con una hacienda reducida: su dieta gira en torno a platos simples (*lentejas, salpicón*), con vestimenta modesta (sayo de velarte y vellorí finos para fiestas). Su hogar incluye una ama mayor y una sobrina joven, junto a un *mozo de campo* que cuida su caballo y otras tareas.\n\n- **Obsesión por los libros de caballerías**:\n  Ocioso la mayor parte del año, se adentra en novelas de caballerías con tanta intensidad que abandona la caza y la gestión de su propiedad para leerlas. Compra tierras para comprar libros —especialmente los de **Feliciano de Silva**—, aunque sus razonamientos retóricos (como *\"la razón de la sinrazón\"*) le confunden, hasta el punto de querer escribir su propia aventura para cumplir su promesa final.\n\n- **Debate literario y conflictos internos**:\n  Disputa con el cura del pueblo —un",
+        "tokens_generados": 256,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 3.05,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:18:34"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RES-04",
+      "categoria": "resumen",
+      "prompt": "Resume en 2 oraciones el siguiente párrafo técnico: Un lenguaje de programación puede definirse como un idioma artificial diseñado para que sea fácilmente entendible por un humano e interpretable por una máquina. Consta de una serie de reglas y de un conjunto de órdenes o instrucciones. Cada una de estas instrucciones realiza una tarea determinada. A través de una secuencia de instrucciones podemos indicar a una computadora el algoritmo que debe seguir para solucionar un problema dado. A un algoritmo escrito utilizando las instrucciones de un lenguaje de programación se le denomina programa. Existen multitud de lenguajes de programación, cada uno con sus ventajas e inconvenientes. Disponemos de lenguajes especializados para realizar cálculos científicos, para escribir videojuegos o para programar robots. Fortran es un lenguaje de programación diseñado para realizar aplicaciones científicas. Podemos utilizarlo para calcular operaciones complejas fácilmente, pero sería tremendamente laborioso utilizarlo para escribir un videojuego. Igualmente existen lenguajes de propósito general: aquellos que no están especializados en un campo concreto, pero con los que podemos realizar casi cualquier tarea con un mayor o menor esfuerzo. Pero se nos plantea otra pequeña dificultad: un lenguaje de programación está diseñado para que una persona escriba fácilmente algoritmos, pero la circuitería de un ordenador no comprende ningún lenguaje distinto al sistema binario. La solución es utilizar una herramienta llamada compilador, que transforma el conjunto de órdenes o instrucciones que escribimos utilizando cualquier lenguaje de programación en los ceros y unos que son comprensibles por la circuitería de la máquina. Con esta solución tan elegante podremos programar una máquina tan compleja como un ordenador, casi de la misma forma en la que utilizamos un horno, abstrayéndonos de su funcionamiento interno, sin conocimientos de electrónica y sin necesidad de entender todas y cada una de sus partes.",
+      "esperado": "Exactamente 2 oraciones que condensen: qué es un lenguaje de programación (con la existencia de lenguajes especializados y generales) y el rol del compilador como puente hacia el binario. Sin oraciones adicionales.",
+      "resultado": {
+        "salida": "Un lenguaje de programación es un idioma artificial con reglas y instrucciones diseñadas para ser legibles por humanos y ejecutables por máquinas, permitiendo definir algoritmos para resolver problemas mediante secuencias de órdenes. Para traducir estas instrucciones a código binario comprensible por la computadora, se usan herramientas como compiladores, que convierten el código fuente en órdenes ejecutables.",
+        "tokens_generados": 78,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 3.85,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:20:24"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COR-05",
+      "categoria": "correccion_traduccion",
+      "prompt": "Corrige la ortografía y gramática del siguiente texto: 'hola profe, queria saver si el proyecto se entrega el martes o el miercoles. grasias'. Devuelve solo el texto corregido.",
+      "esperado": "Texto corregido: 'Hola profe, quería saber si el proyecto se entrega el martes o el miércoles. Gracias.' (tildes en quería/miércoles, saver→saber, grasias→Gracias). Solo el texto corregido, sin explicaciones.",
+      "resultado": {
+        "salida": "'Hola profesor, ¿quería saber si el proyecto se entrega el martes o el miércoles? Gracias.'",
+        "tokens_generados": 25,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 4.87,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:20:57"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COR-06",
+      "categoria": "correccion_traduccion",
+      "prompt": "Traduce al inglés: 'La inteligencia artificial se ha convertido en una herramienta fundamental para el desarrollo tecnológico de Costa Rica.'",
+      "esperado": "Traducción fiel y gramaticalmente correcta en inglés que conserve el significado completo de la oración original, sin omisiones ni agregados.",
+      "resultado": {
+        "salida": "The following is the English translation of your sentence:\n\n**\"Artificial intelligence has become a fundamental tool for Costa Rica’s technological development.\"**",
+        "tokens_generados": 28,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 4.93,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:21:06"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COD-07",
+      "categoria": "codigo",
+      "prompt": "Escribe una función en Python que reciba una lista de números y devuelva el promedio de los pares. Incluye manejo de lista vacía.",
+      "esperado": "Función ejecutable que filtre los números pares y calcule su promedio; con manejo de lista vacía (valor de retorno explícito o excepción controlada). Se verificará ejecutándola: con [3, 4, 6] debe devolver 5 (solo pares), con [] no debe fallar sin control.",
+      "resultado": {
+        "salida": "Aquí tienes una función en Python que calcula el promedio de los números pares de una lista, incluyendo el manejo de listas vacías o sin números pares:\n\n```python\ndef promedio_pares(lista):\n    \"\"\"\n    Calcula el promedio de los números pares en una lista.\n\n    Args:\n        lista (list): Lista de números (enteros o flotantes).\n\n    Returns:\n        float: Promedio de los números pares. Si no hay pares o la lista está vacía,\n               devuelve None o 0.0 según el caso que prefieras manejar.\n    \"\"\"\n    pares = [num for num in lista if isinstance(num, (int, float)) and not isinstance(num, bool) and num % 2 == 0]\n\n    if not pares:  # Lista vacía o sin números pares\n        return None  # O podrías devolver 0.0 si prefieres un valor por defecto\n\n    promedio = sum(pares) / len(pares)\n    return promedio\n\n# Ejemplo de uso:\nprint(promedio_pares([1, 2, 3, 4, 5, 6]))  # Salida: 4.0 (promedio de",
+        "tokens_generados": 256,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 4.33,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:21:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COD-08",
+      "categoria": "codigo",
+      "prompt": "Escribe una consulta SQL que devuelva el nombre y el promedio de notas de cada estudiante de la tabla 'estudiantes' cuyo promedio sea mayor a 80.",
+      "esperado": "Consulta SQL sintácticamente válida con SELECT de nombre y promedio, GROUP BY por estudiante y filtro HAVING (o subconsulta) para promedio > 80. Se verificará su sintaxis en un motor SQL.",
+      "resultado": {
+        "salida": "Aquí tienes una consulta SQL que devuelve el **nombre** y el **promedio de notas** de cada estudiante cuya puntuación media sea mayor a 80:\n\n```sql\nSELECT\n    nombre,\n    AVG(notas) AS promedio_notas\nFROM\n    estudiantes\nGROUP BY\n    nombre\nHAVING\n    AVG(notas) > 80;\n```\n\n### Explicación:\n1. **`GROUP BY nombre`**: Agrupa los resultados por estudiante (asumiendo que la tabla tiene una columna `nombre`).\n2. **`AVG(notas)`**: Calcula el promedio de notas por estudiante.\n3. **`HAVING AVG(notas) > 80`**: Filtra solo a estudiantes cuyo promedio sea superior a 80.\n\n---\n**Nota:** Si la tabla `estudiantes` tiene una estructura diferente (por ejemplo, si las notas se guardan en una tabla secundaria como `notas_estudiantes`), tendrías que modificar la consulta para incluir relaciones clave-llave (como `JOIN`). ¿Necesitas adaptarla a otro esquema?",
+        "tokens_generados": 235,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 4.17,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:22:17"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RAZ-09",
+      "categoria": "razonamiento_veracidad",
+      "prompt": "Si Minor es más alta que Luis y Luis es más alto que Gilder, ¿quién es el más bajo de los tres? Explica tu razonamiento paso a paso.",
+      "esperado": "Respuesta: Gilder es el más bajo. Razonamiento encadenado válido que establezca el orden Minor > Luis > Gilder.",
+      "resultado": {
+        "salida": "Vamos a analizar la información paso a paso:\n\n1. **Minor es más alta que Luis**: Esto significa que **Luis es más bajo que Minor**.\n2. **Luis es más alto que Gilder**: Esto significa que **Gilder es más bajo que Luis**.\n\nCombinando ambas afirmaciones:\n- Minor > Luis > Gilder\n\nAsí, el orden de altura es de mayor a menor:\n- **Minor** (más alta)\n- **Luis** (más alto que Gilder, pero menos que Minor)\n- **Gilder** (el más bajo de los tres).\n\n**Respuesta final**: Gilder es el más bajo de los tres.",
+        "tokens_generados": 137,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 4.7,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:23:17"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RAZ-10",
+      "categoria": "razonamiento_veracidad",
+      "prompt": "¿Cuál es la capital de Costa Rica y en qué provincia se encuentra?",
+      "esperado": "Respuesta factual: San José, provincia de San José. Verificable contra fuente oficial. Cualquier otro dato (provincia distinta, ciudad inventada) es alucinación.",
+      "resultado": {
+        "salida": "La capital de **Costa Rica** es **San José**.\n\nSe encuentra en la **provincia de San José**, aunque la mayoría del país está dividida en otras provincias (como **Guanacaste, Limón, Cartago, Heredia, Alajuela, Puntarenas** y **Tamarindo**), **San José** no es una provincia en sí misma, sino un distrito capital ubicado dentro de la provincia de nombre homónimo.\n\n¿Necesitas más detalles? 😊",
+        "tokens_generados": 103,
+        "ttft_seg": 0.0,
+        "tokens_por_segundo": 4.61,
+        "temperatura": 0.7,
+        "estado": "ok",
+        "error_detalle": null,
+        "fecha_ejecucion": "2026-10-24T15:23:50"
+      },
+      "calificacion": null,
+      "comentario": null
+    }
+  ],
+  "temperatura": 0.7,
+  "max_tokens": 256,
+  "fecha_corrida": "2026-10-24T15:16:32"
+}
