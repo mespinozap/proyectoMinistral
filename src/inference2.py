@@ -18,11 +18,14 @@ import json             # lectura de la suite y escritura de resultados
 import time             # medición de tiempos
 from datetime import datetime   # marcas de tiempo de ejecución
 from pathlib import Path        # manejo portable de rutas relativas
-
+import os
 import requests         # cliente HTTP hacia la API de Ollama
 
 # API local de Ollama: localhost, sin credenciales ni rutas absolutas
-OLLAMA_URL = "http://localhost:11434/api/generate"
+#OLLAMA_URL = "http://localhost:11434/api/generate"
+
+#OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://host.docker.internal:11434/api/generate")
 
 
 def consultar_ollama(modelo, prompt, temperatura, max_tokens):

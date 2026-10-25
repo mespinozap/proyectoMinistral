@@ -1,0 +1,190 @@
+{
+  "suite": "suite-functional-v1",
+  "model": "ministral-3:3b",
+  "creada": "2026-10-24",
+  "prompts": [
+    {
+      "id": "GEN-01",
+      "categoria": "generacion_texto",
+      "prompt": "Redacta un correo formal para solicitar una cita con el director de la Escuela de Informática. Debe incluir: saludo formal, propósito de la cita (asesoría sobre el proyecto de investigación) y despedida cordial.",
+      "esperado": "Correo con saludo formal, propósito de asesoría sobre el proyecto de investigación y despedida cordial. Registro formal, estructura de correo completa, sin datos inventados.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "GEN-02",
+      "categoria": "generacion_texto",
+      "prompt": "Escribe una publicación breve (máximo 100 palabras) para la página de la universidad anunciando un hackatón de IA el 15 de noviembre.",
+      "esperado": "Publicación de máximo 100 palabras que anuncie el hackatón con fecha 15 de noviembre, tono institucional y datos básicos del evento (fecha, temática). Sin agregar detalles no solicitados.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RES-03",
+      "categoria": "resumen",
+      "prompt": "Resume en 3 viñetas el siguiente texto de 500 palabras: En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lentejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana. Pero esto importa poco a nuestro cuento: basta que en la narración dél no se salga un punto de la verdad. Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso, que eran los más del año, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda; y llegó a tanto su curiosidad y desatino en esto, que vendió muchas hanegas de tierra de sembradura para comprar libros de caballerías en que leer, y así, llevó a su casa todos cuantos pudo haber dellos; y de todos, ningunos le parecían tan bien como los que compuso el famoso Feliciano de Silva; porque la claridad de su prosa y aquellas entricadas razones suyas le parecían de perlas, y más cuando llegaba a leer aquellos requiebros y cartas de desafíos, donde en muchas partes hallaba escrito: La razón de la sinrazón que a mi razón se hace, de tal manera mi razón enflaquece, que con razón me quejo de la vuestra fermosura. Y también cuando leía:... los altos cielos que de vuestra divinidad divinamente con las estrellas os fortifican, y os hacen merecedora del merecimiento que merece la vuestra grandeza. Con estas razones perdía el pobre caballero el juicio, y desvelábase por entenderlas y desentrañarles el sentido, que no se lo sacara ni las entendiera el mesmo Aristóteles, si resucitara para sólo ello. No estaba muy bien con las heridas que don Belianís daba y recebía, porque se imaginaba que, por grandes maestros que le hubiesen curado, no dejaría de tener el rostro y todo el cuerpo lleno de cicatrices y señales. Pero, con todo, alababa en su autor aquel acabar su libro con la promesa de aquella inacabable aventura, y muchas veces le vino deseo de tomar la pluma y dalle fin al pie de la letra, como allí se promete; y sin duda alguna lo hiciera, y aun saliera con ello, si otros mayores y continuos pensamientos no se lo estorbaran. Tuvo muchas veces competencia con el cura de su lugar (que era hombre docto, graduado en Sigüenza), sobre cuál había sido mejor caballero: Palmerín de Ingalaterra, o Amadís de Gaula; mas maese Nicolás, barbero del mismo pueblo, decía que ninguno llegaba al Caballero del Febo, y que si alguno se le podía comparar, era don Galaor, hermano de Amadís de Gaula, porque tenía muy acomodada condición para todo; que no era caballero melindroso, ni tan llorón como su hermano, y que en lo de la valentía no le iba en zaga.",
+      "esperado": "Exactamente 3 viñetas que capturen: (1) el retrato y estilo de vida del hidalgo, (2) su afición desmedida a los libros de caballerías y su decisión de vender tierras para comprarlos, (3) el descuido de su hacienda y las discusiones con el cura y el barbero. Sin contenido inventado.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RES-04",
+      "categoria": "resumen",
+      "prompt": "Resume en 2 oraciones el siguiente párrafo técnico: Un lenguaje de programación puede definirse como un idioma artificial diseñado para que sea fácilmente entendible por un humano e interpretable por una máquina. Consta de una serie de reglas y de un conjunto de órdenes o instrucciones. Cada una de estas instrucciones realiza una tarea determinada. A través de una secuencia de instrucciones podemos indicar a una computadora el algoritmo que debe seguir para solucionar un problema dado. A un algoritmo escrito utilizando las instrucciones de un lenguaje de programación se le denomina programa. Existen multitud de lenguajes de programación, cada uno con sus ventajas e inconvenientes. Disponemos de lenguajes especializados para realizar cálculos científicos, para escribir videojuegos o para programar robots. Fortran es un lenguaje de programación diseñado para realizar aplicaciones científicas. Podemos utilizarlo para calcular operaciones complejas fácilmente, pero sería tremendamente laborioso utilizarlo para escribir un videojuego. Igualmente existen lenguajes de propósito general: aquellos que no están especializados en un campo concreto, pero con los que podemos realizar casi cualquier tarea con un mayor o menor esfuerzo. Pero se nos plantea otra pequeña dificultad: un lenguaje de programación está diseñado para que una persona escriba fácilmente algoritmos, pero la circuitería de un ordenador no comprende ningún lenguaje distinto al sistema binario. La solución es utilizar una herramienta llamada compilador, que transforma el conjunto de órdenes o instrucciones que escribimos utilizando cualquier lenguaje de programación en los ceros y unos que son comprensibles por la circuitería de la máquina. Con esta solución tan elegante podremos programar una máquina tan compleja como un ordenador, casi de la misma forma en la que utilizamos un horno, abstrayéndonos de su funcionamiento interno, sin conocimientos de electrónica y sin necesidad de entender todas y cada una de sus partes.",
+      "esperado": "Exactamente 2 oraciones que condensen: qué es un lenguaje de programación (con la existencia de lenguajes especializados y generales) y el rol del compilador como puente hacia el binario. Sin oraciones adicionales.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COR-05",
+      "categoria": "correccion_traduccion",
+      "prompt": "Corrige la ortografía y gramática del siguiente texto: 'hola profe, queria saver si el proyecto se entrega el martes o el miercoles. grasias'. Devuelve solo el texto corregido.",
+      "esperado": "Texto corregido: 'Hola profe, quería saber si el proyecto se entrega el martes o el miércoles. Gracias.' (tildes en quería/miércoles, saver→saber, grasias→Gracias). Solo el texto corregido, sin explicaciones.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COR-06",
+      "categoria": "correccion_traduccion",
+      "prompt": "Traduce al inglés: 'La inteligencia artificial se ha convertido en una herramienta fundamental para el desarrollo tecnológico de Costa Rica.'",
+      "esperado": "Traducción fiel y gramaticalmente correcta en inglés que conserve el significado completo de la oración original, sin omisiones ni agregados.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COD-07",
+      "categoria": "codigo",
+      "prompt": "Escribe una función en Python que reciba una lista de números y devuelva el promedio de los pares. Incluye manejo de lista vacía.",
+      "esperado": "Función ejecutable que filtre los números pares y calcule su promedio; con manejo de lista vacía (valor de retorno explícito o excepción controlada). Se verificará ejecutándola: con [3, 4, 6] debe devolver 5 (solo pares), con [] no debe fallar sin control.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "COD-08",
+      "categoria": "codigo",
+      "prompt": "Escribe una consulta SQL que devuelva el nombre y el promedio de notas de cada estudiante de la tabla 'estudiantes' cuyo promedio sea mayor a 80.",
+      "esperado": "Consulta SQL sintácticamente válida con SELECT de nombre y promedio, GROUP BY por estudiante y filtro HAVING (o subconsulta) para promedio > 80. Se verificará su sintaxis en un motor SQL.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RAZ-09",
+      "categoria": "razonamiento_veracidad",
+      "prompt": "Si Minor es más alta que Luis y Luis es más alto que Gilder, ¿quién es el más bajo de los tres? Explica tu razonamiento paso a paso.",
+      "esperado": "Respuesta: Gilder es el más bajo. Razonamiento encadenado válido que establezca el orden Minor > Luis > Gilder.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    },
+    {
+      "id": "RAZ-10",
+      "categoria": "razonamiento_veracidad",
+      "prompt": "¿Cuál es la capital de Costa Rica y en qué provincia se encuentra?",
+      "esperado": "Respuesta factual: San José, provincia de San José. Verificable contra fuente oficial. Cualquier otro dato (provincia distinta, ciudad inventada) es alucinación.",
+      "resultado": {
+        "salida": null,
+        "tokens_generados": null,
+        "ttft_seg": null,
+        "tokens_por_segundo": null,
+        "temperatura": 0.7,
+        "estado": "error",
+        "error_detalle": "No se pudo conectar con Ollama en localhost:11434. Verifique que el servicio esté en ejecución (bandeja del sistema).",
+        "fecha_ejecucion": "2026-10-25T23:11:15"
+      },
+      "calificacion": null,
+      "comentario": null
+    }
+  ],
+  "temperatura": 0.7,
+  "max_tokens": 256,
+  "fecha_corrida": "2026-10-25T23:11:15"
+}
